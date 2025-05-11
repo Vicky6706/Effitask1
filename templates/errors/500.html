@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>500 - Internal Server Error</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/error_styles.css' %}">
+</head>
+<body>
+    <div class="error-container">
+        <h1>Something Went Wrong</h1>
+        <p>Oops! There was a problem on our end. We're working hard to fix it.</p>
+        <a href="{% url 'home' %}" class="btn">Go Back to Homepage</a>
+    </div>
+</body>
+</html>
